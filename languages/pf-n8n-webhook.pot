@@ -1,0 +1,144 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: n8n-webhook-for-elementor-by-pixelfarben 1.0.0\n"
+"Report-Msgid-Bugs-To: https://pixelfarben.de\n"
+"POT-Creation-Date: 2025-10-09 00:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: GPT\n"
+
+#: includes/class-pf-n8n-settings.php
+msgid "Pixelfarben"
+msgstr ""
+
+#: includes/class-pf-n8n-settings.php
+msgid "n8n Settings"
+msgstr ""
+
+#: includes/class-pf-n8n-settings.php
+msgid "n8n Logs"
+msgstr ""
+
+#: includes/class-pf-n8n-settings.php
+msgid "General"
+msgstr ""
+
+#: includes/class-pf-n8n-settings.php
+msgid "n8n Base URL"
+msgstr ""
+
+#: includes/class-pf-n8n-settings.php
+msgid "Default Webhook URL (optional)"
+msgstr ""
+
+#: includes/class-pf-n8n-settings.php
+msgid "HMAC Secret"
+msgstr ""
+
+#: includes/class-pf-n8n-settings.php
+msgid "Enable Logging"
+msgstr ""
+
+#: includes/class-pf-n8n-settings.php
+msgid "Anonymize IP (logs only)"
+msgstr ""
+
+#: includes/class-pf-n8n-settings.php
+msgid "Enabled"
+msgstr ""
+
+#: includes/class-pf-n8n-settings.php
+msgid "Pixelfarben → n8n Settings"
+msgstr ""
+
+#: includes/class-pf-n8n-settings.php
+msgid "Privacy: IP addresses in logs can be anonymized. Excluded fields are not sent to n8n."
+msgstr ""
+
+#: includes/class-pf-n8n-settings.php
+msgid "Logs cleared."
+msgstr ""
+
+#: includes/class-pf-n8n-settings.php
+msgid "Pixelfarben → n8n Logs"
+msgstr ""
+
+#: includes/class-pf-n8n-settings.php
+msgid "Export JSON"
+msgstr ""
+
+#: includes/class-pf-n8n-settings.php
+msgid "Clear Logs"
+msgstr ""
+
+#: includes/class-pf-n8n-settings.php
+msgid "Are you sure you want to clear logs?"
+msgstr ""
+
+#: includes/class-pf-n8n-settings.php
+msgid "Time"
+msgstr ""
+
+#: includes/class-pf-n8n-settings.php
+msgid "Form"
+msgstr ""
+
+#: includes/class-pf-n8n-settings.php
+msgid "Status"
+msgstr ""
+
+#: includes/class-pf-n8n-settings.php
+msgid "Duration (ms)"
+msgstr ""
+
+#: includes/class-pf-n8n-settings.php
+msgid "Response"
+msgstr ""
+
+#: includes/class-pf-n8n-settings.php
+msgid "Webhook"
+msgstr ""
+
+#: includes/class-pf-n8n-settings.php
+msgid "No logs yet."
+msgstr ""
+
+#: includes/class-pf-n8n-elementor-action.php
+msgid "n8n Trigger (Pixelfarben)"
+msgstr ""
+
+#: includes/class-pf-n8n-elementor-action.php
+msgid "Pixelfarben → n8n"
+msgstr ""
+
+#: includes/class-pf-n8n-elementor-action.php
+msgid "Webhook URL (overrides default)"
+msgstr ""
+
+#: includes/class-pf-n8n-elementor-action.php
+msgid "Enable HMAC"
+msgstr ""
+
+#: includes/class-pf-n8n-elementor-action.php
+msgid "Yes"
+msgstr ""
+
+#: includes/class-pf-n8n-elementor-action.php
+msgid "No"
+msgstr ""
+
+#: includes/class-pf-n8n-elementor-action.php
+msgid "Extra headers (key:value per line)"
+msgstr ""
+
+#: includes/class-pf-n8n-elementor-action.php
+msgid "Exclude fields (comma-separated)"
+msgstr ""
+
+#: includes/class-pf-n8n-elementor-action.php
+msgid "Key rename rules (from:to per line)"
+msgstr ""
+
+

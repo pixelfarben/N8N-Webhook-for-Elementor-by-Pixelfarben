@@ -1,0 +1,59 @@
+{
+  "name": "Pixelfarben Elementor Form Ingest",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "pixelfarben/elementor",
+        "responseMode": "onReceived",
+        "options": {}
+      },
+      "id": "Webhook",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [260, 300]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "booleans": [],
+          "number": [],
+          "string": [
+            {
+              "value1": "={{$json[\"form_name\"]}}",
+              "operation": "contains",
+              "value2": "Contact"
+            }
+          ]
+        }
+      },
+      "id": "If",
+      "name": "If",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 1,
+      "position": [540, 300]
+    },
+    {
+      "parameters": {
+        "keepOnlySet": true,
+        "values": {
+          "string": [
+            {"name": "email", "value": "={{$json.fields.email}}"},
+            {"name": "source", "value": "elementor"}
+          ]
+        }
+      },
+      "id": "Set",
+      "name": "Set",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 1,
+      "position": [780, 240]
+    }
+  ],
+  "connections": {
+    "Webhook": {"main": [[{"node": "If", "type": "main", "index": 0}]]},
+    "If": {"main": [[{"node": "Set", "type": "main", "index": 0}], []]}
+  }
+}
+
+
